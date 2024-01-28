@@ -1,0 +1,19 @@
+[
+  {
+    "SuperUserRole": "SuperUser Role",
+    "ManagerRole": "Manager Role",
+    "TechnicianRole": "Technician Role"
+  },
+  {
+    "NumberOfInputFields": 3,
+    "MandatoryInputFields": 1,
+    "NonMandatoryInputField": 1,
+    "InputType": "Text",
+    "StatusInputType": "CheckBox",
+    "MandatoryFieldName": "Role Name",
+    "RoleNameInputType": "text",
+    "ActiveStatusInputType": "radio",
+    "InactiveStatusInputType": "radio",
+    "ErrorMessage": "Please enter your role name!"
+  }
+]

@@ -1,0 +1,133 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Tests">
+    <listeners>
+        <listener class-name="org.bytefactorydpmsautomation.TestComponents.CustomListeners"/>
+    </listeners>
+    <test name="Main">
+        <classes>
+            <class name="org.bytefactorydpmsautomation.TestComponents.BaseTest">
+                <methods>
+                    <include name="setUp"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Login Test">
+        <classes>
+            <class name="org.bytefactorydpmsautomation.tests.LoginTest">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Configuration Test">
+        <classes>
+            <class name="org.bytefactorydpmsautomation.tests.ConfigurationTest">
+                <methods>
+                    <include name="testSuperUserRoleCreation" />
+<!--                    <include name="testSearchRole" />-->
+<!--                    <include name="testSuperUserCreation" />-->
+<!--                    <include name="testSuperUserAccess" />-->
+<!--                    <include name="testLogOutAdmin" />-->
+<!--                    <include name="testLoginSuperUser" />-->
+<!--                    <include name="testManagerRoleCreation" />-->
+<!--                    <include name="testTechnicianRoleCreation" />-->
+<!--                    <include name="testManagerUserCreation" />-->
+<!--                    <include name="testTechnicianUserCreation" />-->
+<!--                    <include name="testUserGroupCreation" />-->
+<!--                    <include name="testManagerUserAccess" />-->
+<!--                    <include name="testTechnicianUserAccess" />-->
+<!--                    <include name="testSuperUserLogout"/>-->
+<!--                    <include name="testManagerLogin"/>-->
+<!--                    <include name="testAssetCreation" />-->
+<!--                    <include name="testSearchAssert" />-->
+<!--                    <include name="testCreateCheckTypes" />-->
+<!--                    <include name="testCreateChecks" />-->
+<!--                    <include name="testCreateCheckList" />-->
+<!--                    <include name="testValidateCheckList" />-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+<!--    <test name="Scheduler Test">-->
+<!--        <classes>-->
+<!--            <class name="org.bytefactorydpmsautomation.tests.SchedulerTest">-->
+<!--                <methods>-->
+<!--                    <include name="testSchedulerCreation"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="ChecklistExecution Test">-->
+<!--        <classes>-->
+<!--            <class name="org.bytefactorydpmsautomation.tests.CheckListExecutionTest">-->
+<!--                <methods>-->
+<!--                    <include name="testCheckListExecutionScheduledStatus"/>-->
+<!--                    <include name="testChecklistExecutionValidate"/>-->
+<!--                    <include name="testManagerLogout"/>-->
+<!--                    <include name="testTechnicianLogin"/>-->
+<!--                    <include name="testSchedulerExecutionInProgress"/>-->
+<!--                    <include name="testCheckListExecutionStatusInProgress"/>-->
+<!--                    <include name="testSchedulerExecutionClosed"/>-->
+<!--                    <include name="testCheckListExecutionStatusClosed"/>-->
+<!--                    <include name="testOverallAfterTicketCount"/>-->
+<!--                    <include name="testTechnicianLogout"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Resolution Work Order Test">-->
+<!--        <classes>-->
+<!--            <class name="org.bytefactorydpmsautomation.tests.ResolutionWorkOrderTest">-->
+<!--                <methods>-->
+<!--                    <include name="testManagerLogin"/>-->
+<!--&lt;!&ndash;                    <include name="testDashBoardRWOOpenedStatus" />&ndash;&gt;-->
+<!--                    <include name="testReportOpenedStatus" />-->
+<!--                    <include name="testUpdateResolutionWorkOrder" />-->
+<!--&lt;!&ndash;                    <include name="testDashBoardAssignedStatus" />&ndash;&gt;-->
+<!--                    <include name="testReportAssignedStatus" />-->
+<!--                    <include name="testManagerLogout" />-->
+<!--                    <include name="testTechnicianLogin" />-->
+<!--                    <include name="testCompleteResolutionWorkOrder" />-->
+<!--&lt;!&ndash;                    <include name="testDashBoardResolvedStatus" />&ndash;&gt;-->
+<!--                    <include name="testReportResolvedStatus" />-->
+<!--                    <include name="testTechnicianLogout" />-->
+<!--                    <include name="testManagerLogin1"/>-->
+<!--                    <include name="testRWOApproval" />-->
+<!--&lt;!&ndash;                    <include name="testDashBoardCompletedStatus" />&ndash;&gt;-->
+<!--                    <include name="testReportCompletedStatus" />-->
+<!--                    <include name="testRWOTicketStatus" />-->
+<!--                    <include name="testManagerLogout1" />-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Super User Access Test">-->
+<!--            <classes>-->
+<!--                <class name="org.bytefactorydpmsautomation.tests.SuperUserAccessTest">-->
+<!--                    <methods>-->
+<!--                        <include name="testSuperUserLogin" />-->
+<!--                        <include name="testSuperUserAccess" />-->
+<!--                        <include name="testSuperUserLogout" />-->
+<!--                    </methods>-->
+<!--                </class>-->
+<!--            </classes>-->
+<!--        </test>-->
+<!--        <test name="Technician Access Test">-->
+<!--            <classes>-->
+<!--                <class name="org.bytefactorydpmsautomation.tests.TechnicianAccessTest">-->
+<!--                    <methods>-->
+<!--                        <include name="testTechnicianLogin" />-->
+<!--                        <include name="testTechnicianAccess" />-->
+<!--                        <include name="testTechnicianLogout" />-->
+<!--                    </methods>-->
+<!--                </class>-->
+<!--            </classes>-->
+<!--        </test>-->
+<!--    <test name="Database Cleanup">-->
+<!--        <classes>-->
+<!--            <class name="org.bytefactorydpmsautomation.TestDataCleanup.DatabaseCleanup" />-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

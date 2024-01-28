@@ -1,0 +1,38 @@
+[
+  {
+    "ChecksName": "Check for oil levels",
+    "Description": "Check for oil levels",
+    "ChecksType": "M",
+    "Priority": "High"
+  },
+  {
+    "ChecksName": "Check air lubricators",
+    "Description": "Check air lubricators",
+    "ChecksType": "M",
+    "Priority": "Medium"
+  },
+  {
+    "ChecksName": "Check for axis reference points",
+    "Description": "Check for axis reference points",
+    "ChecksType": "M",
+    "Priority": "Low"
+  },
+  {
+    "ChecksName": "Inspect for cracked hoses",
+    "Description": "Inspect for cracked hoses",
+    "ChecksType": "M",
+    "Priority": "Medium"
+  },
+  {
+    "ChecksName": "Verify lube operation",
+    "Description": "Verify lube operation",
+    "ChecksType": "M",
+    "Priority": "Medium"
+  },
+  {
+    "ChecksName": "Check tool knockout",
+    "Description": "Check tool knockout",
+    "ChecksType": "M",
+    "Priority": "Medium"
+  }
+]

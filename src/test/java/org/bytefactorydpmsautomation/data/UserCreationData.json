@@ -1,0 +1,23 @@
+[
+  {
+    "UserName": "Madhu Sudhan",
+    "Role": "SuperUser Role",
+    "Email": "madhu@maxbytetech.com",
+    "MobileNo": "9876543210",
+    "Password": "123456"
+  },
+  {
+    "UserName": "Suganya Govindasamy",
+    "Role": "Manager Role",
+    "Email": "suganya@maxbytetech.com",
+    "MobileNo": "9876543210",
+    "Password": "123456"
+  },
+  {
+    "UserName": "Gowtham Perumal",
+    "Role": "Technician Role",
+    "Email": "gowtham@maxbytetech.com",
+    "MobileNo": "9876543210",
+    "Password": "123456"
+  }
+]
